@@ -2,6 +2,8 @@
 
 This repository contains the code and data for the corresponding preprint article [arXiv:2308.03334](https://arxiv.org/abs/2308.03334).
 
+DOI for data and code: [10.5281/zenodo.10376853](https://zenodo.org/doi/10.5281/zenodo.10376853)
+
 ## Summary
 
 Quantum batteries are predicted to have the potential to outperform their classical counterparts and are therefore an important element in the development of quantum technologies. In this work we simulate the charging process and work extraction of many-body quantum batteries on noisy-intermediate scale quantum (NISQ) devices, and devise the Variational Quantum Ergotropy (VQErgo) algorithm which finds the optimal unitary operation that maximises work extraction from the battery. We test VQErgo by calculating the ergotropy of a quantum battery undergoing transverse field Ising dynamics. We investigate the battery for different system sizes and charging times and analyze the minimum required circuit depth of the variational optimization using both ideal and noisy simulators. Finally, we optimize part of the VQErgo algorithm and calculate the ergotropy on one of IBM's quantum devices. 
